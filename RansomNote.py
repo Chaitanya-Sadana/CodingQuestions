@@ -14,5 +14,7 @@ class Solution(object):
         return True
 
 
-print(Solution().canSpell(['a','b','c','d','e','f'], 'bed'))
-print(Solution().canSpell(['a','b','c','d','e','f'], 'cat'))
+print(Solution().canSpell(['a','b','c','d','e','f'], 'bed'))   
+#True
+print(Solution().canSpell(['a','b','c','d','e','f'], 'cat'))   
+#False
